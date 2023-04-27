@@ -4,10 +4,11 @@ class MyArray {
         this.data = {};
     }
 
+    
     get(index) {
         return this.data[index];
     }
-    
+
 
     push(item) {
         this.data[this.length] = item;
