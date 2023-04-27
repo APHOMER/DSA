@@ -4,7 +4,7 @@ class MyArray {
         this.data = {};
     }
 
-    
+
     get(index) {
         return this.data[index];
     }
@@ -24,6 +24,7 @@ class MyArray {
         return lastItem;
     }
 
+    
     delete(index) {
         const item = this.data[index];
         this.shiftItems(index);
